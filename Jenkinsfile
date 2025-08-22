@@ -15,7 +15,7 @@ pipeline {
 
        stage('Registering build artifact') {
             steps {
-                echo 'Registering the metadata'
+                echo 'Registering the metadata1'
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
                     name: "test-artifact-vignesh",
